@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+
+  button {
+    background-color: #444;
+    color: #fff;
+  }
+
+
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.hellomessage{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 6vw;
+}
+
+
+
+.header {
+  padding-bottom: 5px;
+
+  background: #8c2535;
+  color: #f1f1f1;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+
+.contentholder {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+
+.contentholder img {
+  float: left;
+  margin-right: 20px;
+ 
+}
+
+
+.contentholder span {
+  display: inline-block;
+  
+  
+  
+  
+}
+button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.tutorimg {
+  padding-top: 50px;
+ width: 35%;
+  align-items: center;
+  
+}
+
+.centerimg {
+  padding-top: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.centerimg2 {
+  padding-top: -30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.togglemode {
+ position: absolute;
+  right: 2%;
+  bottom: 1%;
+}
+
+.twoColumns {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  text-align: left;
+  margin-left: 15%;
+}
+.right{
+  margin-right: 15%;
+ display: flex;
+  align-items: center;
+}
+
+
+.tutorimg {
+  width: 35%;
+}
